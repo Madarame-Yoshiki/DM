@@ -4,6 +4,12 @@
 int main(){
   int a=rand();
   int head=0,tail=0;
+  //名前を聞く
+  char str[10];
+  printf("Who are you?\n");
+  scanf("%s",str);
+  printf("Hello %s!\n",str);
+  //コイントス
   printf("Tossing a coin..\n");
   for(int i=1;i<=3;i++){
     if(a%2==0){
